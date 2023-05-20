@@ -11,14 +11,14 @@ sudo apt install -y cmake
 sudo apt install -y python3 python3-pip
 
 # Install Python libraries
-pip3 install --upgrade numpy scipy pandas matplotlib seaborn opencv-python-headless scikit-image pillow
+pip3 install --user --upgrade numpy scipy pandas matplotlib seaborn opencv-python-headless scikit-image pillow
 
 # Install deep learning libraries
-pip3 install --upgrade tensorflow keras torch torchvision theano
+pip3 install --user --upgrade tensorflow keras torch torchvision theano
 
 # Install IDEs and code editors
 sudo snap install --classic pycharm-community
-pip3 install --upgrade jupyter
+pip3 install --user --upgrade jupyter
 sudo snap install --classic code
 
 # Sublime Text 3 install with apt-get
